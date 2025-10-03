@@ -2,8 +2,10 @@ package com.example.yumi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+//@ComponentScan(basePackages = "com.example.yumi")
 public class YumiApplication {
 
 	public static void main(String[] args) {
@@ -11,3 +13,4 @@ public class YumiApplication {
 	}
 
 }
+//--enable-native-access=ALL-UNNAMED
