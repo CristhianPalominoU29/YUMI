@@ -34,4 +34,4 @@ COPY --from=build /app/target/yumi-0.0.1-SNAPSHOT.jar .
 EXPOSE 8080
 
 # Este es el comando que se ejecutará para iniciar tu aplicación cuando el contenedor arranque
-ENTRYPOINT ["java", "-jar", "geoprop-backend-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "yumi-0.0.1-SNAPSHOT.jar"]
